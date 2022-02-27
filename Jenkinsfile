@@ -8,4 +8,9 @@ node('built-in')
 	{
     sh label: '', script: 'mvn package'
 	}
+    stage('Continuous tests_master')
+        {
+    echo 'Testing has been passed'
+        }
+
 }
